@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-spotify-moya",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ccc80959-5575-4ee3-b8ab-a12f7d622b64",
+		"tenantId": "b49256da-1d05-4712-b919-62b92772c7e1"
+	}
+}
