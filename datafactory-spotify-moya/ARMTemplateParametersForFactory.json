@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-spotify-moya"
+		},
+		"SpotifyDataLakeLinkedService_accountKey": {
+			"value": ""
+		},
+		"SpotifySqlDatabaseLinkedService_password": {
+			"value": ""
+		},
+		"SpotifyDataLakeLinkedService_properties_typeProperties_url": {
+			"value": "https://spotifystoragemoya.dfs.core.windows.net/"
+		},
+		"SpotifySqlDatabaseLinkedService_properties_typeProperties_server": {
+			"value": "server-spotify-project.database.windows.net"
+		},
+		"SpotifySqlDatabaseLinkedService_properties_typeProperties_database": {
+			"value": "spotify-sql-database"
+		},
+		"SpotifySqlDatabaseLinkedService_properties_typeProperties_userName": {
+			"value": "moya-admin"
+		}
+	}
+}
